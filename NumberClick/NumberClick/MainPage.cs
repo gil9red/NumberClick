@@ -11,7 +11,7 @@ namespace NumberClick
     public class MainPage : ContentPage
     {
         int clicksNumber = 0;
-        Label label = new Label() { HorizontalTextAlignment = TextAlignment.Center, VerticalTextAlignment = TextAlignment.Center };
+        Label label = new Label() { HorizontalTextAlignment = TextAlignment.Center };
         Button button = new Button() { Text = "Кликай!" };
 
         public MainPage()
@@ -26,6 +26,8 @@ namespace NumberClick
 
             Content = new StackLayout
             {
+                VerticalOptions = LayoutOptions.Center,
+
                 Children = {
                     button,
                     label,
