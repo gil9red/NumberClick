@@ -8,7 +8,7 @@ using Xamarin.Forms;
 
 namespace NumberClick {
     public class MainPage : ContentPage {
-        int maxNumberClick = 100;
+        int maxNumberClick = 50;
         int clicksNumber = 0;
 
         Label infoLabel = new Label() { HorizontalTextAlignment = TextAlignment.Center };
